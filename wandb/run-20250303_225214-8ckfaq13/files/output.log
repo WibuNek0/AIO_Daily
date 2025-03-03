@@ -1,6 +1,0 @@
-C:\Users\Apollonir\AppData\Local\Temp\ipykernel_32312\2206813352.py:19: RuntimeWarning: overflow encountered in scalar power
-  loss = (y_hat - y)**2 *0.5
-C:\Users\Apollonir\AppData\Local\Temp\ipykernel_32312\2950736346.py:5: RuntimeWarning: overflow encountered in scalar multiply
-  dw1 = (y_hat - y) * x1 *2
-C:\Users\Apollonir\AppData\Local\Temp\ipykernel_32312\2950736346.py:12: RuntimeWarning: invalid value encountered in scalar subtract
-  w1 = w1 - lr * dw1
