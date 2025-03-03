@@ -1,0 +1,7 @@
+{"time":"2025-03-03T22:55:18.6416786+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"d:\\GitHub\\AIO_Daily\\wandb\\run-20250303_225518-yieeafow\\logs\\debug-core.log"}
+{"time":"2025-03-03T22:55:18.7680021+07:00","level":"INFO","msg":"created new stream","id":"yieeafow"}
+{"time":"2025-03-03T22:55:18.7680021+07:00","level":"INFO","msg":"stream: started","id":"yieeafow"}
+{"time":"2025-03-03T22:55:18.7680021+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"yieeafow"}
+{"time":"2025-03-03T22:55:18.7680021+07:00","level":"INFO","msg":"handler: started","stream_id":"yieeafow"}
+{"time":"2025-03-03T22:55:18.7680021+07:00","level":"INFO","msg":"sender: started","stream_id":"yieeafow"}
+{"time":"2025-03-03T22:55:19.2087157+07:00","level":"INFO","msg":"Starting system monitor"}

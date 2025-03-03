@@ -1,0 +1,39 @@
+2025-03-03 22:27:33,670 INFO    MainThread:32312 [wandb_init.py:setup_run_log_directory():647] Logging user logs to d:\GitHub\AIO_Daily\wandb\run-20250303_222733-tcbon6bb\logs\debug.log
+2025-03-03 22:27:33,670 INFO    MainThread:32312 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to d:\GitHub\AIO_Daily\wandb\run-20250303_222733-tcbon6bb\logs\debug-internal.log
+2025-03-03 22:27:33,670 INFO    MainThread:32312 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001DDFA422600>
+2025-03-03 22:27:33,670 INFO    MainThread:32312 [wandb_init.py:init():761] calling init triggers
+2025-03-03 22:27:33,671 INFO    MainThread:32312 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 1000, '_wandb': {}}
+2025-03-03 22:27:33,671 INFO    MainThread:32312 [wandb_init.py:init():784] starting backend
+2025-03-03 22:27:33,671 INFO    MainThread:32312 [wandb_init.py:init():788] sending inform_init request
+2025-03-03 22:27:33,673 INFO    MainThread:32312 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-03-03 22:27:33,673 INFO    MainThread:32312 [wandb_init.py:init():803] backend started and connected
+2025-03-03 22:27:33,677 INFO    MainThread:32312 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-03-03 22:27:33,687 INFO    MainThread:32312 [wandb_init.py:init():896] updated telemetry
+2025-03-03 22:27:33,803 INFO    MainThread:32312 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-03 22:27:34,350 INFO    MainThread:32312 [wandb_init.py:init():995] starting run threads in backend
+2025-03-03 22:27:34,687 INFO    MainThread:32312 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-03 22:27:34,687 INFO    MainThread:32312 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-03 22:27:34,687 INFO    MainThread:32312 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-03 22:27:34,688 INFO    MainThread:32312 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-03 22:27:34,689 INFO    MainThread:32312 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-03 22:27:35,171 INFO    MainThread:32312 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-03 22:27:35,171 INFO    MainThread:32312 [wandb_init.py:_pause_backend():564] pausing backend
+2025-03-03 22:27:53,928 INFO    MainThread:32312 [wandb_init.py:_resume_backend():569] resuming backend
+2025-03-03 22:27:53,941 INFO    MainThread:32312 [wandb_init.py:setup_run_log_directory():647] Logging user logs to d:\GitHub\AIO_Daily\wandb\run-20250303_222753-lf2hpy0k\logs\debug.log
+2025-03-03 22:27:53,942 INFO    MainThread:32312 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to d:\GitHub\AIO_Daily\wandb\run-20250303_222753-lf2hpy0k\logs\debug-internal.log
+2025-03-03 22:27:53,943 INFO    MainThread:32312 [wandb_init.py:init():761] calling init triggers
+2025-03-03 22:27:53,943 INFO    MainThread:32312 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 1000, '_wandb': {}}
+2025-03-03 22:27:53,943 INFO    MainThread:32312 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-03 22:28:30,960 INFO    MainThread:32312 [wandb_run.py:_finish():2112] finishing run vthieu0204-vietnam-national-university-hanoi/Linear Regression/tcbon6bb
+2025-03-03 22:28:30,961 INFO    MainThread:32312 [jupyter.py:save_history():458] not saving jupyter history
+2025-03-03 22:28:30,961 INFO    MainThread:32312 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-03 22:28:30,961 INFO    MainThread:32312 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-03-03 22:28:30,961 INFO    MainThread:32312 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-03 22:28:30,961 INFO    MainThread:32312 [wandb_run.py:_restore():2324] restore
+2025-03-03 22:28:30,961 INFO    MainThread:32312 [wandb_run.py:_restore():2330] restore done
+2025-03-03 22:28:36,104 INFO    MsgRouterThr:32312 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-03 22:28:36,104 INFO    MainThread:32312 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-03 22:28:36,105 INFO    MainThread:32312 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-03 22:28:36,109 INFO    MainThread:32312 [wandb_run.py:_footer_sync_info():3919] logging synced files

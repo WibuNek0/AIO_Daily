@@ -1,0 +1,6 @@
+2025-03-03 22:27:53,941 INFO    MainThread:32312 [wandb_init.py:setup_run_log_directory():647] Logging user logs to d:\GitHub\AIO_Daily\wandb\run-20250303_222753-lf2hpy0k\logs\debug.log
+2025-03-03 22:27:53,942 INFO    MainThread:32312 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to d:\GitHub\AIO_Daily\wandb\run-20250303_222753-lf2hpy0k\logs\debug-internal.log
+2025-03-03 22:27:53,943 INFO    MainThread:32312 [wandb_init.py:init():761] calling init triggers
+2025-03-03 22:27:53,943 INFO    MainThread:32312 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 1000, '_wandb': {}}
+2025-03-03 22:27:53,943 INFO    MainThread:32312 [wandb_init.py:init():776] wandb.init() called while a run is active

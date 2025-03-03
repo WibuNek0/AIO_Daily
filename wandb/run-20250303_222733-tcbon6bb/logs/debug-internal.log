@@ -1,0 +1,18 @@
+{"time":"2025-03-03T22:27:33.6739885+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"d:\\GitHub\\AIO_Daily\\wandb\\run-20250303_222733-tcbon6bb\\logs\\debug-core.log"}
+{"time":"2025-03-03T22:27:33.7902072+07:00","level":"INFO","msg":"created new stream","id":"tcbon6bb"}
+{"time":"2025-03-03T22:27:33.7902072+07:00","level":"INFO","msg":"stream: started","id":"tcbon6bb"}
+{"time":"2025-03-03T22:27:33.7902072+07:00","level":"INFO","msg":"handler: started","stream_id":"tcbon6bb"}
+{"time":"2025-03-03T22:27:33.7902072+07:00","level":"INFO","msg":"sender: started","stream_id":"tcbon6bb"}
+{"time":"2025-03-03T22:27:33.7902072+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"tcbon6bb"}
+{"time":"2025-03-03T22:27:34.3527161+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T22:27:35.1722747+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-03-03T22:27:53.9289852+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-03-03T22:28:30.9621224+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T22:28:30.9621224+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T22:28:31.9781873+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7095034,"progress":"1.0KB/1.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.4533241,"progress":"537B/537B"}],"total_operations":2}}
+{"time":"2025-03-03T22:28:32.5541014+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T22:28:36.1225575+07:00","level":"INFO","msg":"stream: closing","id":"tcbon6bb"}
+{"time":"2025-03-03T22:28:36.1225575+07:00","level":"INFO","msg":"handler: closed","stream_id":"tcbon6bb"}
+{"time":"2025-03-03T22:28:36.1225575+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tcbon6bb"}
+{"time":"2025-03-03T22:28:36.1225575+07:00","level":"INFO","msg":"sender: closed","stream_id":"tcbon6bb"}
+{"time":"2025-03-03T22:28:36.1230829+07:00","level":"INFO","msg":"stream: closed","id":"tcbon6bb"}
