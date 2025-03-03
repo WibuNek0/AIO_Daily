@@ -5,3 +5,12 @@
 {"time":"2025-03-03T22:55:18.7680021+07:00","level":"INFO","msg":"handler: started","stream_id":"yieeafow"}
 {"time":"2025-03-03T22:55:18.7680021+07:00","level":"INFO","msg":"sender: started","stream_id":"yieeafow"}
 {"time":"2025-03-03T22:55:19.2087157+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T22:55:57.6346959+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T22:55:57.6352036+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T22:55:58.6390685+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4290586},{"desc":"uploading config.yaml","runtime_seconds":0.1668968,"progress":"517B/517B"}],"total_operations":2}}
+{"time":"2025-03-03T22:55:59.4765027+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-03T22:56:02.8485355+07:00","level":"INFO","msg":"stream: closing","id":"yieeafow"}
+{"time":"2025-03-03T22:56:02.8485355+07:00","level":"INFO","msg":"handler: closed","stream_id":"yieeafow"}
+{"time":"2025-03-03T22:56:02.8485355+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yieeafow"}
+{"time":"2025-03-03T22:56:02.8485355+07:00","level":"INFO","msg":"sender: closed","stream_id":"yieeafow"}
+{"time":"2025-03-03T22:56:02.8485355+07:00","level":"INFO","msg":"stream: closed","id":"yieeafow"}
