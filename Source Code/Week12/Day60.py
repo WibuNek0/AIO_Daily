@@ -1,36 +1,41 @@
 import streamlit as st
 import os
-import requests  # import thư viện requests để gọi Google Gemini API
+import google.generativeai as genai
 
-# Lấy Google Gemini API key từ file .streamlit/secrets.toml (cần định nghĩa [google] api_key = "your_gemini_key" trong đó)
-google_api_key = st.secrets.get("google", {}).get("api_key")
+# Lấy Google Gemini API key từ file .streamlit/secrets.toml
+# Cần định nghĩa [google] api_key = "your_gemini_key" trong đó
+gemini_api_key = st.secrets.get("google", {}).get("api_key")
+
+# Cấu hình Gemini API
+genai.configure(api_key=gemini_api_key)
+
+# Tạo model
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 st.title("Chat với Google Gemini")
 
+# Khởi tạo history nếu chưa có
 if "messages" not in st.session_state:
     st.session_state.messages = []
+    # Khởi tạo chat
+    st.session_state.chat = model.start_chat(history=[])
 
 # Hiển thị toàn bộ hội thoại
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
 
 if prompt := st.chat_input("Bạn muốn hỏi gì?"):
+    # Hiển thị tin nhắn của người dùng
     st.chat_message("user").write(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
-
-    # Gọi API Google Gemini text-bison-001
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta2/models/text-bison-001:generateText?key={google_api_key}"
-    payload = {
-        "prompt": {"text": prompt},
-        "temperature": 0.2,
-        "maxOutputTokens": 1024
-    }
-    res = requests.post(endpoint, json=payload)
-    if res.status_code == 200:
-        data = res.json()
-        reply = data["candidates"][0]["output"]
-    else:
-        reply = f"Error {res.status_code}: {res.text}"
-
-    st.chat_message("assistant").write(reply)
-    st.session_state.messages.append({"role": "assistant", "content": reply})
+    
+    try:
+        # Gọi API Gemini để trả lời
+        response = st.session_state.chat.send_message(prompt)
+        reply = response.text
+        
+        # Hiển thị phản hồi
+        st.chat_message("assistant").write(reply)
+        st.session_state.messages.append({"role": "assistant", "content": reply})
+    except Exception as e:
+        st.error(f"Lỗi khi gọi Gemini API: {str(e)}")
