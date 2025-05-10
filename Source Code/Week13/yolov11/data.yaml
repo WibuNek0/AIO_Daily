@@ -1,0 +1,7 @@
+
+train: d:\GitHub\AIO_Daily\Source Code\Week13\yolov11\train\images
+val: d:\GitHub\AIO_Daily\Source Code\Week13\yolov11\valid\images
+test: d:\GitHub\AIO_Daily\Source Code\Week13\yolov11\test\images
+
+nc: 1
+names: ['head']
