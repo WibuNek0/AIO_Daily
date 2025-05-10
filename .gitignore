@@ -1,4 +1,21 @@
-.csv
-.txt
+*.csv
+*.txt
 *.pdf
-Weekly Topics/
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.webp
+*.toml
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.flv
+.streamlit/secrets.toml
+yolov11/
